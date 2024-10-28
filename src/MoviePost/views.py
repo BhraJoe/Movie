@@ -41,172 +41,172 @@ def Up(request):
 def Equalizer(request):
     return render(request,'MoviePost/yes/the Equalizer.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def hours(request):
     return render(request,'MoviePost/yes/6 hours.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def bad(request):
     return render(request,'MoviePost/yes/bad.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def bade(request):
     return render(request,'MoviePost/yes/bade.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def beacon23(request):
     return render(request,'MoviePost/yes/beacon 23.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def blood(request):
     return render(request,'MoviePost/yes/blood.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def breaking(request):
     return render(request,'MoviePost/yes/breaking.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def breathe(request):
     return render(request,'MoviePost/yes/breathe.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def bridgerton(request):
     return render(request,'MoviePost/yes/bridgerton.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def chief(request):
     return render(request,'MoviePost/yes/chief.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def cleaning(request):
     return render(request,'MoviePost/yes/cleaning.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def control(request):
     return render(request,'MoviePost/yes/control.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def damaged(request):
     return render(request,'MoviePost/yes/damaged.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def darkmatter(request):
     return render(request,'MoviePost/yes/dark Matter.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def dead(request):
     return render(request,'MoviePost/yes/dead.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def di(request):
     return render(request,'MoviePost/yes/di.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def doctor(request):
     return render(request,'MoviePost/yes/doctor.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def fallout(request):
     return render(request,'MoviePost/yes/fallout.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def game(request):
     return render(request,'MoviePost/yes/game.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def ghostbusters(request):
     return render(request,'MoviePost/yes/ghostbusters.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def halo(request):
     return render(request,'MoviePost/yes/halo.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def hangman(request):
     return render(request,'MoviePost/yes/hangman.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def hotel(request):
     return render(request,'MoviePost/yes/hotel.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def house(request):
     return render(request,'MoviePost/yes/house.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def how(request):
     return render(request,'MoviePost/yes/how.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def humane(request):
     return render(request,'MoviePost/yes/humane.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def interview(request):
     return render(request,'MoviePost/yes/interview.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def into(request):
     return render(request,'MoviePost/yes/into.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def kill(request):
     return render(request,'MoviePost/yes/kill.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def landofbad(request):
     return render(request,'MoviePost/yes/land of bad.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def life(request):
     return render(request,'MoviePost/yes/life.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def logan(request):
     return render(request,'MoviePost/yes/logan.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def madmax(request):
     return render(request,'MoviePost/yes/mad max.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def mad(request):
     return render(request,'MoviePost/yes/mad.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def madamweb(request):
     return render(request,'MoviePost/yes/madam web.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def mayor(request):
     return render(request,'MoviePost/yes/mayor.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def neugdaesanyang(request):
     return render(request,'MoviePost/yes/neugdaesanyang.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def panggonanwingit(request):
     return render(request,'MoviePost/yes/panggonan wingit.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def paradox(request):
     return render(request,'MoviePost/yes/paradox.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def parasyte(request):
     return render(request,'MoviePost/yes/parasyte.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def parish(request):
     return render(request,'MoviePost/yes/parish.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def premsumed(request):
     return render(request,'MoviePost/yes/premsumed.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def rebel(request):
     return render(request,'MoviePost/yes/rebel.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def rise(request):
     return render(request,'MoviePost/yes/rise.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def see(request):
     return render(request,'MoviePost/yes/see.html',{"key":"Data from Database"})
 
 def Equalizer(request):
     return render(request,'MoviePost/yes/seolgyeja.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def severance(request):
     return render(request,'MoviePost/yes/severance.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def shadow(request):
     return render(request,'MoviePost/yes/shadow.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def sistas(request):
     return render(request,'MoviePost/yes/sistas.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def snowpiercer(request):
     return render(request,'MoviePost/yes/snowpiercer.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def space(request):
     return render(request,'MoviePost/yes/space.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def stalked(request):
     return render(request,'MoviePost/yes/stalked.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def strangers(request):
     return render(request,'MoviePost/yes/strangers.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def supacall(request):
     return render(request,'MoviePost/yes/supacall.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def superman(request):
     return render(request,'MoviePost/yes/superman.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def sweet(request):
     return render(request,'MoviePost/yes/sweet.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def theacolyte(request):
     return render(request,'MoviePost/yes/the acolyte.html',{"key":"Data from Database"})
 
 def theark(request):
