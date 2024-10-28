@@ -2,6 +2,7 @@ from django.shortcuts import render
 
 # Create your views here.
 
+
 def ShowHome(request):
     return render(request,'MoviePost/Index.html',{"key":"Data from Database"})
 
