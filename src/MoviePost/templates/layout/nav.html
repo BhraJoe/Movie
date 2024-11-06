@@ -19,6 +19,22 @@
     <button class="submitbu-1" type="submit">Search</button>
     </div>
 
+   <div class="head-2">
+    {% if request.user.is_superuser or request.user.is_staff %}
+    <a href="{% url 'admin' %}">AdminPage</a>
+    {% endif %}
+    
+    {% if request.user.is_authenticated %}
+    <p>{{request.user}}</p>
+    {% comment %} <p>{{key}}</p> {% endcomment %}
+    <a href="{% url 'logout' %}">Logout</a>
+    {% else %}
+    <a href="{% url 'login' %}">login</a>
+    {% endif %}
+    
+
+   </div>
+
     <div>
         <a href=""><img width="30" height="30" src="https://img.icons8.com/color/48/instagram-new--v1.png" alt="instagram-new--v1"/></a>
         <a href=""><img width="30" height="30" src="https://img.icons8.com/color/48/facebook-new.png" alt="facebook-new"/></a>            
@@ -29,7 +45,6 @@
 </div>
 
 
-
 <nav class="navbar-1">
     <a class="navbar-2" href="/">Home</a>
     <a class="li-1" href="/about/">About us</a>
@@ -37,3 +52,4 @@
     <a class="li-1" href="/team/">Team</a>
     <a class="li-1" href="/contact/">Contact us</a>
 </nav>
+

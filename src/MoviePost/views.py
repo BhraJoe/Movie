@@ -174,7 +174,7 @@ def rise(request):
 def see(request):
     return render(request,'MoviePost/yes/see.html',{"key":"Data from Database"})
 
-def Equalizer(request):
+def seolgyeja(request):
     return render(request,'MoviePost/yes/seolgyeja.html',{"key":"Data from Database"})
 
 def severance(request):
@@ -236,11 +236,6 @@ def warchief(request):
 
 def wild(request):
     return render(request,'MoviePost/yes/wild.html',{"key":"Data from Database"})
-
-
-
-
-
 
 
 

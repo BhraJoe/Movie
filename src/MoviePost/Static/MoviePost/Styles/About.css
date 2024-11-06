@@ -232,45 +232,46 @@ body {
 
 
 .choice-1 {
-  margin-right: 20px;
-}
-
-.choice-2 {           
-   width: 92%;
-}
-
-.choice-3 {
-   display: flex;
-   flex-wrap: wrap;  
-}
-
-.choice-4 {
-   position: absolute;
-   padding-top: 100px;
-   padding-left: 15px;   
-}
-
-.choice-5 {
-   color: white;
-   font-family: sans-serif; 
-}
-
-.choice-link{
-   color: red;
-   text-decoration: none;
-   font-family: sans-serif;
-   font-size: large;
-   font-weight: bold;
-  
-}
-
-.choice-5 {
-   margin: 0;
-}
+    margin: 15px;   
+   }
+   
+   .choice-2 {           
+       width: 340px;
+       height: 240px;
+   }
+   
+   
+   .choice-3 {
+       display: flex;
+       flex-wrap: wrap;
+   }
+   
+   .choice-4 {
+       position: absolute;
+       padding-top: 100px;
+       padding-left: 15px;   
+   }
+   
+   .choice-5 {
+       color: white;
+       font-family: sans-serif; 
+   }
+   
+   .choice-link {
+       color: red;
+       text-decoration: none;
+       font-family: sans-serif;
+       font-size: large;
+   }
 
 .choice-7 {
     width: 350px;
     height: 240px;
+}
+
+.choice-8 {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
