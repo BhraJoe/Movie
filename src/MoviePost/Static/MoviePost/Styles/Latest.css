@@ -6,6 +6,7 @@ body {
 
 
 .backcol-1 {
+    display: flex;
     background-color: black;
     padding-left: 110px;
     padding-top: 35px;   

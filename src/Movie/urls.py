@@ -25,6 +25,10 @@ urlpatterns = [
     path('', include('MoviePost.urls')),
     path('authentication/', include('authentication.urls')),
     path('admin/', RedirectView.as_view(url='/admin'),name="admin"),
+    path('verification/', include('verify_email.urls')),
+    path('', include('django.contrib.auth.urls')),
+
+
     
     
     

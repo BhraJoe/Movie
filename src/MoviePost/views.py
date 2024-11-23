@@ -1,10 +1,20 @@
+
+
 from django.shortcuts import render
+
+from .models import MoviePost
+
 
 # Create your views here.
 
 
+class MoviePosts:
+    pass
+
+
 def ShowHome(request):
-    return render(request,'MoviePost/Index.html',{"key":"Data from Database"})
+    MoviePosts = MoviePost.objects.all()
+    return render(request,'MoviePost/Index.html',{"keyInView":MoviePosts})
 
 def ShowAbout(request):
     return render(request,'MoviePost/About Us.html',{"key":"Data from Database"})

@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'authentication',
     'django_use_email_as_username.apps.DjangoUseEmailAsUsernameConfig',
     'custom_user.apps.CustomUserConfig',
+    "verify_email.apps.VerifyEmailConfig",
 ]
 
 MIDDLEWARE = [
@@ -133,3 +134,11 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTH_USER_MODEL = 'custom_user.User'
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'sandbox.smtp.mailtrap.io'
+EMAIL_HOST_USER = '01e3a5b5f87cfe'
+EMAIL_HOST_PASSWORD = 'ed845804679d19'
+EMAIL_PORT = '2525'
+
+DEFAULT_FROM_EMAIL = 'noreply<no_reply@domain.com>'

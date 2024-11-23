@@ -114,9 +114,9 @@ body {
 }
 
 .about-1 {
-    display: flex;
+    height:30px;
     padding-left: 120px;
-    flex-wrap: wrap;
+    
 }
 
 .about-2 {
