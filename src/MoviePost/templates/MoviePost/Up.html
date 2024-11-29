@@ -3,7 +3,7 @@
 {% extends "layout/layout.html" %}
 
 {% block title %}
-    About
+    Up
 {% endblock %}
 
 {% block content %}
@@ -22,10 +22,10 @@
     
         <div class="image-3">
             <div  class="image-5">
-                <a href="yes/see.html"><img class="image-4"  src=Pictures/4.jpg alt="" width="100%"></a>
+                <a href="/see/"><img class="image-4"  src="{% static 'MoviePost/Pictures/4.jpg'  %}" alt="" width="100%"></a>
             
             <div class="imagetext-2">
-                <a class="imagetext-3" href="yes/see.html">See</a>
+                <a class="imagetext-3" href="/see/">See</a>
                 <p class="imagetext-1">
                     Far in a dystopian future, the human race has lost  the sense of sight,
                      and society has had to findnew   ways to interact, 
@@ -44,12 +44,12 @@
         </div>    
         </div>
     
-        <div class="image-3">
+       
             <div  class="image-5">
-                <a href="yes/parish.html"><img class="image-4"  src=Pictures/5.jpg alt="" width="100%"></a>
+                <a href="/parish/"><img class="image-4"  src="{% static 'MoviePost/Pictures/5.jpg'  %}" alt="" width="100%"></a>
             
         <div class="imagetext-2">
-                <a class="imagetext-3" href="yes/parish.html"> Parish</a>
+                <a class="imagetext-3" href="/parish/"> Parish</a>
                 <p class="imagetext-1">
                     Follows a taxi driver whose life is turned upside  down
                      when he agrees to pick-up a Zimbabwean  gangster mostly
@@ -68,12 +68,12 @@
         </div>    
         </div>
         
-        <div class="image-3">
+        
             <div  class="image-5">
-                <a href="yes/dead.html"><img class="image-4"  src=Pictures/6.jpg alt="" width="100%"></a>
+                <a href="/dead/"><img class="image-4"  src="{% static 'MoviePost/Pictures/6.jpg'  %}" alt="" width="100%"></a>
             
             <div class="imagetext-2">
-                <a class="imagetext-3" href="yes/dead.html"> Dead Boy Detectives</a>
+                <a class="imagetext-3" href="/dead/"> Dead Boy Detectives</a>
                 <p class="imagetext-1">
                     Charles Rowland and Edwin Paine  decided not to
                      enter the afterlife to stay  on Earth and investigate
@@ -91,16 +91,19 @@
             </div>
         </div>    
         </div>
+    </div>
        </section>
-       <section class="backcol-1">
-        
-    
+
+
+
+    <section class="backcol-1">
+
         <div class="image-3">
             <div  class="image-5">
-                <a href="yes/logan.html"><img class="image-4"  src=Pictures/52.jpg alt="" width="100%"></a>
+                <a href="/logan/"><img class="image-4"  src="{% static 'MoviePost/Pictures/52.jpg'  %}" alt="" width="100%"></a>
             
             <div class="imagetext-2">
-                <a class="imagetext-3" href="yes/logan.html">Logan</a>
+                <a class="imagetext-3" href="/logan/">Logan</a>
                 <p class="imagetext-1">
                     In a future where mutants are nearly extinct, an elderly and weary 
                     Logan leads a quiet life. But when Laura, a mutant child pursued by 
@@ -119,12 +122,12 @@
         </div>    
         </div>
     
-        <div class="image-3">
+        
             <div  class="image-5">
-                <a href="yes/humane.html"><img class="image-4"  src=Pictures/53.jpg alt="" width="100%"></a>
+                <a href="/humane/"><img class="image-4"  src="{% static 'MoviePost/Pictures/53.jpg'  %}" alt="" width="100%"></a>
             
         <div class="imagetext-2">
-                <a class="imagetext-3" href="yes/humane.html"> Humane</a>
+                <a class="imagetext-3" href="/humane/"> Humane</a>
                 <p class="imagetext-1">
                     In the wake of an environmental collapse that is 
                     forcing humanity to shed 20% of its population, 
@@ -144,12 +147,12 @@
         </div>    
         </div>
         
-        <div class="image-3">
+        
             <div  class="image-5">
-                <a href="yes/6 hours.html"><img class="image-4"  src=Pictures/54.jpg alt="" width="100%"></a>
+                <a href="/hours/"><img class="image-4"  src="{% static 'MoviePost/Pictures/54.jpg'  %}" alt="" width="100%"></a>
             
             <div class="imagetext-2">
-                <a class="imagetext-3" href="yes/6 hours.html"> 6 Hours Away</a>
+                <a class="imagetext-3" href="/hours/"> 6 Hours Away</a>
                 <p class="imagetext-1">
                     It follows ex-Marine Chris Montano after his wife goes 
                     missing during a business trip. He then finds himself 
@@ -167,16 +170,19 @@
             </div>
         </div>    
         </div>
-       </section>
+    </div>
+</section>
 
-       <section class="backcol-1">
+
+
+    <section class="backcol-1">
     
         <div class="image-3">
             <div  class="image-5">
-                <a href="yes/the acolyte.html"><img class="image-4"  src=Pictures/55.jpg alt="" width="100%"></a>
+                <a href="/theacolyte/"><img class="image-4"  src="{% static 'MoviePost/Pictures/55.jpg'  %}" alt="" width="100%"></a>
             
             <div class="imagetext-2">
-                <a class="imagetext-3" href="yes/the acolyte.html">the acolyte </a>
+                <a class="imagetext-3" href="/theacolyte/">the acolyte </a>
                 <p class="imagetext-1">
                     Star Wars series that takes viewers into a galaxy of 
                     shadowy secrets and emerging dark-side powers in the 
@@ -195,12 +201,12 @@
         </div>    
         </div>
     
-        <div class="image-3">
+        
             <div  class="image-5">
-            <a href="yes/dark Matter.html"><img class="image-4"  src=Pictures/56.jpg alt="" width="100%"></a>
+            <a href="/darkmatter/"><img class="image-4"  src="{% static 'MoviePost/Pictures/56.jpg'  %}" alt="" width="100%"></a>
             
         <div class="imagetext-2">
-                <a class="imagetext-3" href="yes/dark Matter.html"> Dark Matter</a>
+                <a class="imagetext-3" href="/darkmatter/"> Dark Matter</a>
                 <p class="imagetext-1">
                     A man is abducted into an alternate version of his life. 
                     Amid the mind-bending landscape of lives he could've 
@@ -220,12 +226,12 @@
         </div>    
         </div>
         
-        <div class="image-3">
+        
             <div  class="image-5">
-                <a href="yes/presumed.html"><img class="image-4"  src=Pictures/57.jpg alt="" width="100%"></a>
+                <a href="/presumed/"><img class="image-4"  src="{% static 'MoviePost/Pictures/57.jpg'  %}" alt="" width="100%"></a>
             
             <div class="imagetext-2">
-                <a class="imagetext-3" href="yes/presumed.html"> Presumed Innocent</a>
+                <a class="imagetext-3" href="/presumed/"> Presumed Innocent</a>
                 <p class="imagetext-1">
                     It tells the story of a horrific murder that upends 
                     the Chicago Prosecuting Attorneys' office when one of 
@@ -243,16 +249,19 @@
             </div>
         </div>    
         </div>
-       </section>
+    </div>
+</section>
 
-       <section class="backcol-1">
+
+
+<section class="backcol-1">
     
-        <div class="image-3">
+    <div class="image-3">
             <div  class="image-5">
-                <a href="yes/the Ark.html"><img class="image-4"  src=Pictures/58.jpg alt="" width="100%"></a>
+                <a href="/theark/"><img class="image-4"  src="{% static 'MoviePost/Pictures/58.jpg'  %}" alt="" width="100%"></a>
             
             <div class="imagetext-2">
-                <a class="imagetext-3" href="yes/the Ark.html">The Ark</a>
+                <a class="imagetext-3" href="/theark/">The Ark</a>
                 <p class="imagetext-1">
                     Follows the remaining crew of a spacecraft known as 
                     Ark One, who must become the best versions of themselves 
@@ -272,12 +281,12 @@
         </div>    
         </div>
     
-        <div class="image-3">
+       
             <div  class="image-5">
-                <a href="yes/wild.html"><img class="image-4"  src=Pictures/61.jpg alt="" width="100%"></a>
+                <a href="/wild/"><img class="image-4"  src="{% static 'MoviePost/Pictures/61.jpg'  %}" alt="" width="100%"></a>
             
         <div class="imagetext-2">
-                <a class="imagetext-3" href="yes/wild.html"> Wild Eyed and Wicked</a>
+                <a class="imagetext-3" href="/wild/"> Wild Eyed and Wicked</a>
                 <p class="imagetext-1">
                     Lily Pierce, haunted, seeks her estranged father, 
                     a disgraced history professor, to learn how to battle 
@@ -297,6 +306,7 @@
         </div>    
         </div>
         
-       </section>
+    </div>
+</section>
 
 {% endblock %}

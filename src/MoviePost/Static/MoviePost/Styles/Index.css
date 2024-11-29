@@ -222,14 +222,10 @@ body {
 .backcol-2 {
     display: flex;
     
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
-    
 }
 
 .backcol-3 {
-    padding-right: 192px;  
+    padding-right: 195px;
  }
 
 .backcol-4 {
@@ -291,6 +287,7 @@ body {
     font-family: sans-serif;
     font-weight: bolder;
 }
+
 
 .more-1 {
     background-color: red;
@@ -415,6 +412,7 @@ body {
 
 .top-3 {
     display: flex;
+    padding-left: 250px;
 }   
    
 

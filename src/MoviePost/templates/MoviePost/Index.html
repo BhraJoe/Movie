@@ -1,4 +1,4 @@
-{% extends "layout/layout.html/" %}
+{% extends "layout/layout.html" %}
 
 {% block title %}
     Home
@@ -54,7 +54,8 @@
            <img width="48" height="48" src="https://img.icons8.com/fluency/48/youtube-play.png" alt="youtube-play"/>
         <h4 class="backcol-4">Latest <span class="para-2">Movies</span></h4>    
         </div>
-       <div class="backcol-3">
+        
+       <div style="padding-right: 195px;">
            <button class="backcol-6">
                 <h4><a class="backcol-5" href="/latest/">View All</a></h4>
             </button> 
@@ -65,7 +66,7 @@
 
     <div class="image-3">
         <div  class="image-5">
-            <a href="/ghostbusters/"><img class="image-4"  src={% static "MoviePost/Pictures/1.jpg" %} alt="" width="100%"></a>
+            <a href="/ghostbusters/"><img class="image-4"  src="{% static 'MoviePost/Pictures/1.jpg' %}" alt="" width="100%"></a>
         
         
         <div class="imagetext-2">
@@ -154,7 +155,7 @@
    </section>
 
 
-   <section class="backcol-1">
+<section class="backcol-1">
     <div class="backcol-2">
 
         <div class="backcol-7">
@@ -163,7 +164,7 @@
         </div>
         
 
-        <div class="coming-3">
+        <div  style="padding-right: 194px;">
             <button class="coming-2">
                 <h4><a class="coming-1"  href="/up/">View All</a></h4>
             </button>
@@ -175,8 +176,8 @@
 
     
 
-        <div class="image-3">
-            <div  class="image-5">
+    <div class="image-3">
+        <div  class="image-5">
             <a href="/see/"><img class="image-4"  src="{% static 'MoviePost/Pictures/4.jpg'  %}" alt="" width="100%"></a>
             
             
@@ -190,7 +191,7 @@
     
             </div>
     
-            <div>
+            <div style="padding-left: 15px;">
                             <img width="20" height="20" src="https://img.icons8.com/fluency-systems-filled/48/FA5252/star.png" alt="star"/>            
                             <img width="20" height="20" src="https://img.icons8.com/fluency-systems-filled/48/FA5252/star.png" alt="star"/>            
                             <img width="20" height="20" src="https://img.icons8.com/fluency-systems-filled/48/FA5252/star.png" alt="star"/>            
@@ -200,13 +201,14 @@
     
                 <p class="imagetext-1">1 Views</p>
             </div>
-        </div> 
+        </div>
+         
         
         <div  class="image-5">
             <a href="/parish/"><img class="image-4"  src="{% static 'MoviePost/Pictures/5.jpg'  %}" alt="" width="100%"></a>
             
             
-        <div class="imagetext-2">
+            <div class="imagetext-2">
                 <a class="imagetext-3" href="/parish/"> Parish</a>
                 <p class="imagetext-1">
                     Follows a taxi driver whose life is turned upside down
@@ -216,7 +218,7 @@
     
             </div>
     
-            <div>
+            <div style="padding-left: 15px;">
                             <img width="20" height="20" src="https://img.icons8.com/fluency-systems-filled/48/FA5252/star.png" alt="star"/>            
                             <img width="20" height="20" src="https://img.icons8.com/fluency-systems-filled/48/FA5252/star.png" alt="star"/>            
                             <img width="20" height="20" src="https://img.icons8.com/fluency-systems-filled/48/FA5252/star.png" alt="star"/>            
@@ -230,7 +232,7 @@
        
         
         
-            <div  class="image-5">
+        <div  class="image-5">
             <a href="/dead/"><img class="image-4"  src="{% static 'MoviePost/Pictures/6.jpg'  %}" alt="" width="100%"></a>
             
             
@@ -244,7 +246,7 @@
     
             </div>
     
-            <div>
+            <div style="padding-left: 15px;">
                             <img width="20" height="20" src="https://img.icons8.com/fluency-systems-filled/48/FA5252/star.png" alt="star"/>            
                             <img width="20" height="20" src="https://img.icons8.com/fluency-systems-filled/48/FA5252/star.png" alt="star"/>            
                             <img width="20" height="20" src="https://img.icons8.com/fluency-systems-filled/48/FA5252/star.png" alt="star"/>            
@@ -257,7 +259,7 @@
         </div>    
         
 
-        </div>
+    </div>
     
         
          
@@ -288,7 +290,7 @@
    <div id="just">
     <div class="group-2">
         <div class="group-1 imageA">
-            <a href="/beacon23/"><img  src={% static "MoviePost/Pictures/7.jpg" %} alt="" width="100%" height="100%"></a>
+            <a href="/beacon23/"><img  src="{% static 'MoviePost/Pictures/7.jpg' %}" alt="" width="100%" height="100%"></a>
            </div>
         
            <div class="group-3">
@@ -307,7 +309,7 @@
                 
            </div>
            <div class="group-1 imageA">
-            <a href="/the/"><img  src={% static "MoviePost/Pictures/8.jpg" %} alt="" width="100%" height="100%"></a>
+            <a href="/the/"><img  src="{% static 'MoviePost/Pictures/8.jpg' %}" alt="" width="100%" height="100%"></a>
            </div>
         
            <div class="group-3">
@@ -329,7 +331,7 @@
 
     <div class="group-2">
         <div class="group-1 imageA">
-            <a href="/game/"><img  src={% static "MoviePost/Pictures/9.jpg" %} alt="" width="100%"></a>
+            <a href="/game/"><img  src="{% static 'MoviePost/Pictures/9.jpg' %}" alt="" width="100%"></a>
            </div>
         
            <div class="group-3">
@@ -349,7 +351,7 @@
                 
            </div>
            <div class="group-1 imageA">
-            <a href="/theblacklist/"><img  src={% static "MoviePost/Pictures/10.jpg" %} alt="" width="100%"></a>
+            <a href="/theblacklist/"><img  src="{% static 'MoviePost/Pictures/10.jpg' %}" alt="" width="100%"></a>
            </div>
         
            <div class="group-3">
@@ -374,7 +376,7 @@
    <div id="popular">
     <div class="group-2 ">
         <div class="group-1 imageA">
-            <a href="/snowpiercer/"><img  src={% static "MoviePost/Pictures/80.jpg" %} alt="" width="100%"></a>
+            <a href="/snowpiercer/"><img  src="{% static 'MoviePost/Pictures/80.jpg' %}" alt="" width="100%"></a>
            </div>
         
            <div class="group-3">
@@ -393,7 +395,7 @@
                 
            </div>
            <div class="group-1 imageA">
-            <a href="/halo/"><img  src={% static "MoviePost/Pictures/81.jpg" %} alt="" width="100%"></a>
+            <a href="/halo/"><img  src="{% static 'MoviePost/Pictures/81.jpg' %}" alt="" width="100%"></a>
            </div>
         
            <div class="group-3">
@@ -415,7 +417,7 @@
 
     <div class="group-2">
         <div class="group-1 imageA">
-            <a href="/mayor/"><img  src={% static "MoviePost/Pictures/82.jpg" %} alt="" width="100%"></a>
+            <a href="/mayor/"><img  src="{% static 'MoviePost/Pictures/82.jpg' %}" alt="" width="100%"></a>
            </div>
         
            <div class="group-3">
@@ -435,7 +437,7 @@
                 
            </div>
            <div class="group-1 imageA">
-            <a href="/hotel/"><img  src={% static "MoviePost/Pictures/83.jpg" %} alt="" width="100%"></a>
+            <a href="/hotel/"><img  src="{% static 'MoviePost/Pictures/83.jpg' %}" alt="" width="100%"></a>
            </div>
         
            <div class="group-3">
@@ -462,7 +464,7 @@
    <div id="tv">
     <div class="group-2">
         <div class="group-1 imageA">
-            <a href="/theman/"><img  src={% static "MoviePost/Pictures/84.jpg" %} alt="" width="100%"></a>
+            <a href="/theman/"><img  src="{% static 'MoviePost/Pictures/84.jpg' %}" alt="" width="100%"></a>
            </div>
         
            <div class="group-3">
@@ -481,7 +483,7 @@
                 
            </div>
            <div class="group-1 imageA">
-            <a href="/vikings/"><img  src={% static "MoviePost/Pictures/85.jpg" %} alt="" width="100%"></a>
+            <a href="/vikings/"><img  src="{% static 'MoviePost/Pictures/85.jpg' %}" alt="" width="100%"></a>
            </div>
         
            <div class="group-3">
@@ -503,7 +505,7 @@
 
     <div class="group-2">
         <div class="group-1 imageA">
-            <a href="/sistas/"><img  src={% static "MoviePost/Pictures/86.jpg" %} alt="" width="100%"></a>
+            <a href="/sistas/"><img  src="{% static 'MoviePost/Pictures/86.jpg' %}" alt="" width="100%"></a>
            </div>
         
            <div class="group-3">
@@ -522,7 +524,7 @@
                 
            </div>
            <div class="group-1 imageA">
-            <a href="/seolgyeja/"><img  src={% static "MoviePost/Pictures/87.jpg" %} alt="" width="100%"></a>
+            <a href="/seolgyeja/"><img  src="{% static 'MoviePost/Pictures/87.jpg' %}" alt="" width="100%"></a>
            </div>
         
            <div class="group-3">
@@ -547,7 +549,7 @@
    <div id="free">
     <div class="group-2">
         <div class="group-1 imageA">
-            <a href="/control/"><img  src={% static "MoviePost/Pictures/88.jpg" %} alt="" width="100%"></a>
+            <a href="/control/"><img  src="{% static 'MoviePost/Pictures/88.jpg' %}" alt="" width="100%"></a>
            </div>
         
            <div class="group-3">
@@ -565,7 +567,7 @@
                 
            </div>
            <div class="group-1 imageA">
-            <a href="/space/"><img  src={% static "MoviePost/Pictures/89.jpg" %} alt="" width="100%"></a>
+            <a href="/space/"><img  src="{% static 'MoviePost/Pictures/89.jpg' %}" alt="" width="100%"></a>
            </div>
         
            <div class="group-3">
@@ -587,7 +589,7 @@
 
     <div class="group-2">
         <div class="group-1 imageA">
-            <a href="/stalked/"><img  src={% static "MoviePost/Pictures/90.jpg" %} alt="" width="100%"></a>
+            <a href="/stalked/"><img  src="{% static 'MoviePost/Pictures/90.jpg' %}" alt="" width="100%"></a>
            </div>
         
            <div class="group-3">
@@ -607,7 +609,7 @@
                 
            </div>
            <div class="group-1 imageA">
-            <a href="/supacell/"><img  src={% static "MoviePost/Pictures/91.jpg" %} alt="" width="100%"></a>
+            <a href="/supacell/"><img  src="{% static 'MoviePost/Pictures/91.jpg' %}" alt="" width="100%"></a>
            </div>
         
            <div class="group-3">
@@ -643,7 +645,7 @@
         </div>
         
 
-        <div class="yes-2">
+        <div style="padding-right: 133px;">
             <button class="coming-2">
                 <h4><a class="coming-1"  href="/director/">View All</a></h4>
             </button>
@@ -666,7 +668,7 @@
             </h6>    
                <p class="choice-5">2 Views</p>        
     </div>
-    <a href="/fallout/"><img class="choice-7" src={% static "MoviePost/Pictures/11.jpg" %} alt="" width="100%"></a>
+    <a href="/fallout/"><img class="choice-7" src="{% static 'MoviePost/Pictures/11.jpg' %}" alt="" width="100%"></a>
     </div>
        
         
@@ -682,7 +684,7 @@
             </h6>    
                <p class="choice-5">6 Views</p>        
     </div>
-    <a href="/into/"><img class="choice-7" src={% static "MoviePost/Pictures/12.jpg" %} alt="" width="100%"></a>
+    <a href="/into/"><img class="choice-7" src="{% static 'MoviePost/Pictures/12.jpg' %}" alt="" width="100%"></a>
     </div>
 
     <div class="choice-1">
@@ -698,7 +700,7 @@
                <p class="choice-5">5 Views</p>        
     </div>
         
-    <a href="/breaking/"><img class="choice-7" src={% static "MoviePost/Pictures/13.jpg" %} alt="" width="100%"></a>
+    <a href="/breaking/"><img class="choice-7" src="{% static 'MoviePost/Pictures/13.jpg' %}" alt="" width="100%"></a>
     </div>
 </div>   
 </section>
@@ -710,20 +712,20 @@
         <h4 class="backcol-4">Top<span class="para-2"> 10 Playlist</span></h4>
     </div>
 
-    <div class="top-3">
+<div class="top-3">
         <div class="top-6" style="width: 1200px;">
-            <a href="/kill/"><img class="top-5" src={% static "MoviePost/Pictures/69.jpg" %} alt="" width="100%" height="100%"> </a>       
+            <a href="/kill/"><img class="top-5" src="{% static 'MoviePost/Pictures/69.jpg' %}"69 alt="" width="100%" height="100%"> </a>       
     </div>
     <div class="top-7">
     <div class="top-8">
           <div>
-            <a href="/life/"><img class="top-4" src={% static "MoviePost/Pictures/70.jpg" %} alt="" width="100%" height="100%"></a>
+            <a href="/life/"><img class="top-4" src="{% static 'MoviePost/Pictures/70.jpg' %}" alt="" width="100%" height="100%"></a>
         </div>
         <div>
-            <a href="/mad/"><img class="top-4" src={% static "MoviePost/Pictures/79.jpg" %} alt="" width="100%" height="100%"></a>
+            <a href="/mad/"><img class="top-4" src="{% static 'MoviePost/Pictures/79.jpg' %}" alt="" width="100%" height="100%"></a>
         </div>
         <div>
-            <a href="/rise/"><img class="top-4" src={% static "MoviePost/Pictures/78.jpg" %} alt="" width="100%" height="100%"></a>
+            <a href="/rise/"><img class="top-4" src="{% static 'MoviePost/Pictures/78.jpg' %}" alt="" width="100%" height="100%"></a>
         </div>  
     </div>    
     </div> 
@@ -741,7 +743,7 @@
             
         </div>
        
-       <div class="yes-3">
+       <div  style="padding-right: 133px;">
            <button class="backcol-6">
                 <h4><a class="backcol-5" href="/movie/">View All</a></h4>
             </button> 
@@ -762,7 +764,7 @@
             </h6>    
                <p class="choice-5">2 Views</p>        
     </div>
-    <a href="/house/"><img class="choice-7" src={% static "MoviePost/Pictures/15.jpg" %} alt="" width="100%"></a>
+    <a href="/house/"><img class="choice-7" src="{% static 'MoviePost/Pictures/15.jpg' %}" alt="" width="100%"></a>
     </div>
        
         
@@ -778,7 +780,7 @@
             </h6>    
                <p class="choice-5">6 Views</p>        
     </div>
-    <a href="/parasyte/"><img class="choice-7" src={% static "MoviePost/Pictures/16.jpg" %} alt="" width="100%"></a>
+    <a href="/parasyte/"><img class="choice-7" src="{% static 'MoviePost/Pictures/16.jpg' %}" alt="" width="100%"></a>
     </div>
 
     <div class="choice-1">
@@ -794,7 +796,7 @@
                <p class="choice-5">5 Views</p>        
     </div>
         
-    <a href="/cleaning/"><img class="choice-7" src={% static "MoviePost/Pictures/17.jpg" %} alt="" width="100%"></a>
+    <a href="/cleaning/"><img class="choice-7" src="{% static 'MoviePost/Pictures/17.jpg' %}" alt="" width="100%"></a>
     </div>
 </div>   
 </section>
@@ -847,7 +849,7 @@
 <!--{% endfor %}-->
 
 
-<script src={% static 'MoviePost/script.js' %}></script> 
+<script src="{% static 'MoviePost/script.js' %}"></script> 
 {% endblock %}
 
 

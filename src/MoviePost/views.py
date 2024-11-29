@@ -151,8 +151,8 @@ def madmax(request):
 def mad(request):
     return render(request,'MoviePost/yes/mad.html',{"key":"Data from Database"})
 
-def madamweb(request):
-    return render(request,'MoviePost/yes/madam web.html',{"key":"Data from Database"})
+def madameweb(request):
+    return render(request,'MoviePost/yes/madame web.html',{"key":"Data from Database"})
 
 def mayor(request):
     return render(request,'MoviePost/yes/mayor.html',{"key":"Data from Database"})
@@ -172,8 +172,8 @@ def parasyte(request):
 def parish(request):
     return render(request,'MoviePost/yes/parish.html',{"key":"Data from Database"})
 
-def premsumed(request):
-    return render(request,'MoviePost/yes/premsumed.html',{"key":"Data from Database"})
+def presumed(request):
+    return render(request,'MoviePost/yes/presumed.html',{"key":"Data from Database"})
 
 def rebel(request):
     return render(request,'MoviePost/yes/rebel.html',{"key":"Data from Database"})
@@ -208,8 +208,8 @@ def stalked(request):
 def strangers(request):
     return render(request,'MoviePost/yes/strangers.html',{"key":"Data from Database"})
 
-def supacall(request):
-    return render(request,'MoviePost/yes/supacall.html',{"key":"Data from Database"})
+def supacell(request):
+    return render(request,'MoviePost/yes/supacell.html',{"key":"Data from Database"})
 
 def superman(request):
     return render(request,'MoviePost/yes/superman.html',{"key":"Data from Database"})
