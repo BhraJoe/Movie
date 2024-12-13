@@ -6,8 +6,9 @@ from .views import *
 
 urlpatterns = [
     
+    # path('add_venue/',add_venue, name='add-venue'),
     
-    
+    path('movies/', ShowMovies, name='movies'),
     path('', ShowHome, name='Home'),
     path('about/',ShowAbout, name='about'),
     path('contact/',ShowContact, name='contact'),

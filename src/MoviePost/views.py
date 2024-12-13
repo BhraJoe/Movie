@@ -4,12 +4,32 @@ from django.shortcuts import render
 
 from .models import MoviePost
 
+from django.db.models import Q
+
 
 # Create your views here.
 
 
 class MoviePosts:
     pass
+
+
+
+
+def ShowMovies(request):
+   
+    if request.method =="GET":
+        Data = request.GET.get("movie")
+        DataSearch = MoviePost.objects.filter(Q(name__icontains=Data))
+        context = {"keyInView":DataSearch}
+    else:
+         MoviePosts = MoviePost.objects.all()
+         context = {"keyInView":"MoviePosts"}
+    return render(request,'MoviePost/movies.html',context)
+
+        
+    
+   
 
 
 def ShowHome(request):
@@ -20,7 +40,18 @@ def ShowAbout(request):
     return render(request,'MoviePost/About Us.html',{"key":"Data from Database"})
 
 def ShowContact(request):
-    return render(request,'MoviePost/Contact Us.html',{"key":"Data from Database"})
+    return render(request,'MoviePost/Contact Us.html', {"key":"Data from Database"} )
+
+
+
+# def add_venue(request):
+#     return render(request, 'MoviePost/add_venue.html', {"key":"Data from Database"})
+#
+#
+#
+
+    
+
 
 def ShowServices(request):
     return render(request,'MoviePost/Services.html',{"key":"Data from Database"})

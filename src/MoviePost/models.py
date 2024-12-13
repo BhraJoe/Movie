@@ -6,9 +6,9 @@ class MoviePost(models.Model):
     objects = None
     name = models.CharField(max_length=255,null=True)
     image = models.ImageField(null=True,blank=True,upload_to='images/')
-    video = models.FileField(null=True,blank=True,upload_to='videos/')
+    # video = models.FileField(null=True,blank=True,upload_to='videos/')
     description = models.TextField(null=True,max_length=255)
-    # videolinks = models.TextField(null=True,max_length=255)
+    videolink = models.TextField(null=True,max_length=255)
     
 
 

@@ -1,0 +1,54 @@
+{% extends "layout/layout.html" %}
+
+{% block title %}
+   
+{% endblock %}
+
+{% block content %}
+
+{% load static %}
+
+
+
+    
+    <div class="image-3" style="padding-left: 120px;">
+
+        {% for data in keyInView %}
+        <div  class="image-5">
+            <a href="{{ data.videolink}}"><img class="image-4"  src="{{ data.image.url }}" alt="" width="100%"></a>
+        
+        
+        <div class="imagetext-2">
+            <a class="imagetext-3" href="{{ data.videolink}}"> {{ data.name }}</a>
+<!--            <p class="imagetext-1">-->
+<!--                {{ data.description}}-->
+<!--            </p>-->
+
+<!--            -->
+
+<!--        <div>-->
+<!--            <img width="20" height="20" src="https://img.icons8.com/fluency-systems-filled/48/FA5252/star.png" alt="star"/>            -->
+<!--            <img width="20" height="20" src="https://img.icons8.com/fluency-systems-filled/48/FA5252/star.png" alt="star"/>            -->
+<!--            <img width="20" height="20" src="https://img.icons8.com/fluency-systems-filled/48/FA5252/star.png" alt="star"/>            -->
+<!--            <img width="20" height="20" src="https://img.icons8.com/fluency-systems-filled/48/FA5252/star.png" alt="star"/>            -->
+<!--            <img width="20" height="20" src="https://img.icons8.com/fluency-systems-filled/48/FA5252/star.png" alt="star"/>            -->
+
+
+<!--            <p class="imagetext-1">1 Views</p>-->
+
+<!--            -->
+<!--   -->
+<!--        </div>-->
+    </div>
+
+     </div>
+
+    {% endfor %}
+    
+
+</div>
+
+{% endblock %}
+
+
+

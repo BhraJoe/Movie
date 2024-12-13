@@ -265,12 +265,6 @@ body {
     padding-top: 12px;
 }
 
-.yes-1 {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
 .imagetext-1 {
     color: white;
     font-size: 15px;
