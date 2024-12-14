@@ -22,16 +22,16 @@
 
    <div class="head-2">
     {% if request.user.is_superuser or request.user.is_staff %}
-    <a href="{% url 'admin' %}">AdminPage</a>
+    <a style="color: white;" href="{% url 'admin' %}">AdminPage</a>
     {% endif %}
     
-    {% if request.user.is_authenticated %}
+    <!-- {% if request.user.is_authenticated %}
     <p>{{request.user}}</p>
-    {% comment %} <p>{{key}}</p> {% endcomment %}
-    <a href="{% url 'logout' %}">Logout</a>
-       <a href="{% url 'password_change' %}">password_change</a>
+    {% comment %} <p>{{key}}</p> {% endcomment %} -->
+    <a  style="color: white;" href="{% url 'logout' %}">Logout</a>
+       <a style="color: white;" href="{% url 'password_change' %}">password_change</a>
     {% else %}
-    <a href="{% url 'login' %}">login</a>
+    <a style="color: white;" href="{% url 'login' %}">login</a>
     {% endif %}
     
 

@@ -378,22 +378,31 @@ body {
     flex-wrap: wrap;
 }
 
-.choice-4 {
+
+
+.choice-name {
     position: absolute;
-    padding-top: 100px;
-    padding-left: 15px;   
+    padding-top: 180px;
+    padding-left: 20px;
+    
+
 }
+
+.choice-name1 {
+    color: rgb(247, 8, 8);
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: black;
+    
+    
+}
+
 
 .choice-5 {
     color: white;
     font-family: sans-serif; 
-}
-
-.choice-link {
-    color: red;
-    text-decoration: none;
-    font-family: sans-serif;
-    font-size: large;
 }
 
 
